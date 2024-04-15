@@ -1,0 +1,43 @@
+/env
+
+# Arquivos de compilação
+*.o
+*.obj
+
+# Arquivos executáveis
+*.exe
+*.out
+
+# Arquivos gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Arquivos gerados pela IDE
+.vscode/
+.idea/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de configuração do OpenCV
+opencv/build/
+
+# Arquivos de saída de imagens
+output/
+
+# Arquivos de dados
+data/
+
+# Arquivos de dependências
+dependencies/
+
+# Arquivos de documentação
+docs/
+
+# Outros arquivos gerados
+build/
