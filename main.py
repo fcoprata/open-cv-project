@@ -2,11 +2,12 @@ from ultralytics import YOLO
 import cv2
 import math
 # start webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 # set webcam resolution
 cap.set(3, 1280)
 cap.set(4, 720)
-
+# set webcam frame rate
+cap.set(cv2.CAP_PROP_FPS, 60)  # replace 30 with your desired frame rate
 # model
 model = YOLO("yolo-Weights/yolov8n.pt")
 
